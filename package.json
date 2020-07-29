@@ -1,0 +1,11 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NollHyury/design-patterns.git",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}

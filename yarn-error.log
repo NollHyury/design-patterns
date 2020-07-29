@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add ts-node-dev -D
+
+PATH: 
+  C:\Users\hyury\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\hyury\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Oracle\product\12.1.0\client_3\bin;C:\Oracle\product\12.1.0\client_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\hyury\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\hyury\AppData\Local\Programs\Python\Python37-32;C:\Users\hyury\AppData\Local\Microsoft\WindowsApps;C:\Users\hyury\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hyury\AppData\Roaming\npm;C:\Users\hyury\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescript: tunneling socket could not be established, statusCode=407
+      at ClientRequest.onConnect (C:\Program Files (x86)\Yarn\lib\cli.js:152223:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at Socket.socketOnData (_http_client.js:475:11)
+      at Socket.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+      at readableAddChunk (_stream_readable.js:269:11)
+      at Socket.Readable.push (_stream_readable.js:224:10)
+      at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+
+npm manifest: 
+  {
+    "name": "design-patterns",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/NollHyury/design-patterns.git",
+    "license": "MIT",
+    "dependencies": {
+      "typescript": "^3.9.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
