@@ -14,4 +14,5 @@ for (let index = 0; index < numbers.length - 1; index++) {
   }
 
   console.log(numbers)
+  
 }
